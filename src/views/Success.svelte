@@ -28,8 +28,8 @@ import {fetch as tauriFetch} from '@tauri-apps/api/http'
 import {writeBinaryFile} from '@tauri-apps/api/fs'
 
 async function download() {
-  // TODO: download the MIDI file
-  let url = "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
+  // TODO: download the MIDI file: Get task data from backend
+  let url = "https://storage.bwrrc.org.cn/DEMO.mid"
   let fileName = "rustup-init.exe"
 
   if (typeof window.__TAURI__ !== 'undefined') {

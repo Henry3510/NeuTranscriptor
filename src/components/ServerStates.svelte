@@ -4,5 +4,15 @@
 </div>
 
 <script>
+import { onMount } from "svelte";
+
+
 let connected = false
+
+function checkConnection() {
+  // TODO: check connection: fetch server
+  setTimeout(checkConnection, 10000)
+}
+
+onMount(checkConnection)
 </script>

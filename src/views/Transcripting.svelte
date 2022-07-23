@@ -90,8 +90,8 @@ function updatePercentage(){
     }, 1000);
   } else {
     percentage.set($percentage + 5)
+    setTimeout(updatePercentage, 1000)
   }
-  setTimeout(updatePercentage, 1000)
 }
 
 onMount(() => {
