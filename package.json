@@ -1,0 +1,23 @@
+{
+  "name": "NeuTranscriptor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tauri-apps/cli": "^1.0.5",
+    "svelte": "^3.49.0",
+    "unocss": "^0.44.5",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2",
+    "svelte-spa-router": "^3.2.0"
+  }
+}
