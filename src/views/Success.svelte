@@ -30,7 +30,7 @@ import {writeBinaryFile} from '@tauri-apps/api/fs'
 async function download() {
   // TODO: download the MIDI file: Get task data from backend
   let url = "https://storage.bwrrc.org.cn/DEMO.mid"
-  let fileName = "rustup-init.exe"
+  let fileName = "DEMO.mid"
 
   if (typeof window.__TAURI__ !== 'undefined') {
     let targetPath = await save({
